@@ -4,7 +4,7 @@ on: push
 jobs:
   build:
     name: Build and Test
-    runs-on: CAI-Enterprise
+    runs-on: ubuntu-latest
     permissions:
       contents: read
       security-events: write
